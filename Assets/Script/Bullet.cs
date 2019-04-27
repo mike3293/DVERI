@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    private GameObject parent;
+    private GameObject parent; //comment 1
     public GameObject Parent { set { parent = value; } get { return parent; } }
     private float speed  = 10.0F;
     private Vector3 direction;
@@ -14,6 +14,7 @@ public class Bullet : MonoBehaviour
 
     public Color Color
     {
+        // WE go
         // Here we go!
         set { sprite.color = value; }
 
@@ -40,9 +41,9 @@ public class Bullet : MonoBehaviour
         Unit unit = collider.GetComponent<Unit>();
         if (unit && unit.gameObject != parent)
         {
-            Destroy(gameObject);
+            Destroy(gameObject); // comment 2
         }
 
-    }
+    } //commet3
 
 }
