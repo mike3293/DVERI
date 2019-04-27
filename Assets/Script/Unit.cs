@@ -8,6 +8,7 @@ public class Unit : MonoBehaviour
     {
         Die();    // чувак умирает
         //sdkhksdgka
+        //ewkofojeiojriofrioreiofhriorfhireofhio
     }
 
     protected virtual void Die()
