@@ -14,7 +14,7 @@ public class Bullet : MonoBehaviour
 
     public Color Color
     {
-    //WE are here!
+        // Here we go!
         set { sprite.color = value; }
 
     }
