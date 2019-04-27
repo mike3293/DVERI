@@ -6,7 +6,7 @@ public class Bullet : MonoBehaviour
 {
     private GameObject parent; //comment 1
     public GameObject Parent { set { parent = value; } get { return parent; } }
-    private float speed  = 10.0F;
+    private float speed = 10.0F;
     private Vector3 direction;
     public Vector3 Direction { set { direction = value; } }
 
@@ -43,7 +43,8 @@ public class Bullet : MonoBehaviour
         {
             Destroy(gameObject); // comment 2
         }
-//другое
-//commet3
+        //другое
+        //commet3
 
+    }
 }
