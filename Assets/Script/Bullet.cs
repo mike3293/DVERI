@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+// пэрвая
 public class Bullet : MonoBehaviour
 {
     private GameObject parent;
@@ -44,5 +44,5 @@ public class Bullet : MonoBehaviour
         }
 
     }
-
+    //другое
 }
