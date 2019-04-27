@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+// пэрвая
 public class Bullet : MonoBehaviour
 {
     private GameObject parent; //comment 1
@@ -43,7 +43,7 @@ public class Bullet : MonoBehaviour
         {
             Destroy(gameObject); // comment 2
         }
-
-    } //commet3
+//другое
+//commet3
 
 }
